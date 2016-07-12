@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Boostrap & jQuery</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      body{
+        background-color: #ccc; 
+      }
+      
+      @media (min-width: 768px) { 
+              .img-responsive{
+                  display: block;
+                  max-width: 220px;
+                  height: auto;
+          }
+      }
+
+      .img-responsive{
+        margin-top: 10px;
+      }
+      body{
+        padding-top: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+            <span class="sr-only">Toggle Namigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/" class="navbar-brand">NZ Tours and Adventures</a>
+        </div> <!-- navbar header -->
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Services</a></li>
+            <li><a href="#">Contacs</a></li> 
+            <li><a href="#">About</a></li>
+          </ul>
+        </div> <!-- id menu -->
+      </div> <!-- container fluid --> 
+    </nav>
+    
+  	<div class="container-fluid">
+  		<div class="row">
+      
+      <!-- first article -->
+      <article class="col-sm-12 col-md-6">
+        <div class="row">
+          <header class="col-sm-4 col-md-12 col-lg-5">
+            <img src="../pics-large/pic1.jpg" alt="City Center" class="img-thumbnail img-responsive">
+          </header>
+          <div class="col-sm-8 col-md-12 col-lg-7">
+            <section>
+              <h3>City Center</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At suscipit in provident harum, fugit nemo. Sapiente hic minus ipsa temporibus necessitatibus officiis ipsum dolore, amet maiores nobis nemo eaque velit.
+              </p>
+            </section>
+            <footer>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </footer>
+          </div> <!-- right column -->
+        </div> <!-- inner row -->
+      </article>
+      <!-- first article -->  
+      <!-- second article -->
+      <article class="col-sm-12 col-md-6">
+        <div class="row">
+          <header class="col-sm-4 col-md-12 col-lg-5">
+            <img src="../pics-large/pic2.jpg" alt="Millenium Monument" class="img-thumbnail img-responsive">
+          </header>
+        <div class="col-sm-8 col-md-12 col-lg-7">
+          <section>
+            <h3>Millenium Monument</h3>
+            <p>
+              Eum illo beatae praesentium ad tempore, blanditiis voluptatem officiis recusandae omnis delectus atque earum fuga mollitia ipsum vero nam sint tenetur a cupiditate quae quod modi, quasi, facere quia? Nobis?
+            </p>
+          </section>
+          <footer>
+              <a href="#" class="btn btn-primary">Read More</a>
+          </footer>
+          </div> <!-- right column -->
+        </div> <!-- inner row -->
+      </article>
+      <!-- second article --> 
+      <div class="clearfix visible-md"></div>
+      <!-- third article -->
+      <article class="col-sm-12 col-md-6">
+        <div class="row">
+          <header class="col-sm-4 col-md-12 col-lg-5">
+            <img src="../pics-large/pic3.jpg" alt="City Attractions" class="img-thumbnail img-responsive">
+          </header>
+        <div class="col-sm-8 col-md-12 col-lg-7">  
+          <section>
+            <h3>City Attractions</h3>
+            <p>
+              Eum illo beatae praesentium ad tempore, blanditiis voluptatem officiis recusandae omnis delectus atque earum fuga mollitia ipsum vero nam sint tenetur a cupiditate quae quod modi, quasi, facere quia? Nobis?
+            </p>
+          </section>
+          <footer>
+              <a href="#" class="btn btn-primary">Read More</a>
+          </footer>
+          </div> <!-- right column -->
+        </div> <!-- inner row -->
+      </article>
+      <!-- third article -->   
+       <!-- article 4-->
+      <article class="col-sm-12 col-md-6">
+        <div class="row">
+          <header class="col-sm-4 col-md-12 col-lg-5">
+            <img src="../pics-large/pic4.jpg" alt="Avon River" class="img-thumbnail img-responsive">
+          </header>
+          <div class="col-sm-8 col-md-12 col-lg-7"> 
+            <section>
+              <h3>Avon River</h3>
+              <p>
+                Eum illo beatae praesentium ad tempore, blanditiis voluptatem officiis recusandae omnis delectus atque earum fuga mollitia ipsum vero nam sint tenetur a cupiditate quae quod modi, quasi, facere quia? Nobis?
+              </p>
+            </section>
+            <footer>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </footer>
+          </div> <!-- right column -->
+        </div> <!-- inner row -->
+      </article>
+      <!-- article 4 --> 
+      <!-- article 5-->
+      <article class="col-sm-12 col-md-6">
+        <div class="row">
+          <header class="col-sm-4 col-md-12 col-lg-5">
+              <img src="../pics-large/pic5.jpg" alt="Victoria University" class="img-thumbnail img-responsive">
+          </header>
+          <div class="col-sm-8 col-md-12 col-lg-7"> 
+            <section>
+              <h3>Victoria University</h3>
+              <p>
+                Aliquam illo quo, cum ipsam commodi vero quaerat hic odit fugit, ipsum nostrum error non nobis sint sunt culpa nisi nihil aut nam! Nesciunt similique saepe cumque quae vitae qui.
+              </p>
+            </section>
+            <footer>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </footer>
+          </div> <!-- right column -->
+        </div> <!-- inner row -->
+      </article>
+      <!-- article 5--> 
+      <!-- article 6-->
+      <article class="col-sm-12 col-md-6">
+        <div class="row">
+          <header class="col-sm-4 col-md-12 col-lg-5">
+            <img src="../pics-large/pic6.jpg" alt="Hagley Park"  class="img-thumbnail img-responsive">
+          </header>
+         <div class="col-sm-8 col-md-12 col-lg-7"> 
+            <section>
+              <h3>Hagley Park</h3>
+              <p>
+                Porro numquam nesciunt, praesentium, itaque id veritatis, laudantium quis harum minima ullam laborum nulla, repudiandae ipsam hic amet at blanditiis a pariatur?
+              </p>
+            </section>
+            <footer>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </footer>
+          </div> <!-- right column -->
+        </div> <!-- inner row -->
+      </article>
+      <!-- article 6--> 
+  		</div>  <!-- main row -->
+  	</div>  <!-- container fluid -->
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
